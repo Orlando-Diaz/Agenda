@@ -18,6 +18,9 @@ public class Reunion {
         this.asistentes = asistentes;
     }
 
+    public Reunion() {
+    }
+
     public String getDescripcion() {
         return descripcion;
     }
@@ -59,4 +62,5 @@ public class Reunion {
                 ", asistentes=" + asistentes +
                 '}';
     }
+
 }
